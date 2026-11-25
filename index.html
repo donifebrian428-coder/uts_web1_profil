@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Pribadi - Doni Febriyan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header id="main-header">
+    <h1>Doni Febriyan</h1>
+    <p class="subtitle">Mahasiswa D4 TRPL | Politeknik Indonusa Surakarta</p>
+  </header>
+
+  <nav id="main-nav">
+    <ul>
+      <li><a href="#tentang">Tentang Saya</a></li>
+      <li><a href="#keahlian">Keahlian & Aktivitas</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="tentang" class="card">
+      <h2>Tentang Saya</h2>
+      <p>Halo! Saya mahasiswa Teknologi Rekayasa Perangkat Lunak (NIM: B25015). Saya tertarik pada pengembangan web, jaringan komputer, serta olahraga boxing dan pembinaan latihan fisik.</p>
+      <button id="btn-sapa" class="btn-primary">Tampilkan Sapaan</button>
+      <p id="pesan-dinamis" class="highlight-text"></p>
+    </section>
+
+    <section id="keahlian" class="card">
+      <h2>Fokus & Aktivitas</h2>
+      <article class="item-box">
+        <h3>Pengembangan Perangkat Lunak</h3>
+        <p>Mempelajari HTML5, CSS3, JavaScript, Python, Java, dan manajemen basis data MySQL.</p>
+      </article>
+      <article class="item-box">
+        <h3>Boxing & Pembinaan Latihan</h3>
+        <p>Aktif berlatih dan membina sesi latihan boxing, teknik dasar pukulan, footwork, serta kebugaran fisik.</p>
+      </article>
+    </section>
+
+    <section id="kontak" class="card">
+      <h2>Kirim Pesan Singkat</h2>
+      <form id="form-kontak">
+        <label for="nama-pengirim">Nama Anda:</label>
+        <input type="text" id="nama-pengirim" placeholder="Masukkan nama..." required>
+        <button type="submit" class="btn-primary">Kirim Pesan</button>
+      </form>
+      <p id="hasil-form"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Doni Febriyan - UTS Pemrograman Web 1</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
